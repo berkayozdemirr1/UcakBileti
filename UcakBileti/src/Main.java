@@ -30,11 +30,11 @@ public class Main {
         }
         if (yolculukTipi == 2) {
             if ((yas > 0) && (yas < 12)) {
-                System.out.println("Toplam Ucret : " + (tutar - (yolindirimi + onikindirim)));
+                System.out.println("Toplam Ucret : " + (tutar - (yolindirimi + onikindirim))*2);
             } else if ((yas >= 12) && (yas <= 24)) {
-                System.out.println("Toplam Ucret : " + (tutar - (yolindirimi + ydindirimi)));
+                System.out.println("Toplam Ucret : " + (tutar - (yolindirimi + ydindirimi))*2);
             } else if (yas > 65) {
-                System.out.println("Toplam Ucret : " + (tutar - (yolindirimi + abindirimi)));
+                System.out.println("Toplam Ucret : " + (tutar - (yolindirimi + abindirimi))*2);
             } else if (((yas>25) && (yas<=65))) {
                 System.out.println("Toplam Ucret : " + (tutar -yolindirimi));
             }
